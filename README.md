@@ -19,8 +19,9 @@ This is a React application demonstrating a secure payment processing flow using
 ## Getting Started
 
 1. Install the required dependencies:
-```bash
+```
 npm install lumepay-sdk dotenv react-spinners
+```
 
 2. Create a .env file in the root directory and add your LumePay API key:
 ```
@@ -28,7 +29,7 @@ VITE_LUMEPAY_API_KEY=your-api-key-here
 ```
 
 3. Start the development server:
-```bash
+```
 npm run dev
 ```
 

@@ -12,8 +12,8 @@ importers:
         specifier: ^16.5.0
         version: 16.5.0
       lumepay-sdk:
-        specifier: ^1.0.2
-        version: 1.0.2
+        specifier: ^1.0.3
+        version: 1.0.3
       react:
         specifier: ^19.0.0
         version: 19.1.0
@@ -847,8 +847,8 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  lumepay-sdk@1.0.2:
-    resolution: {integrity: sha512-X2W4QlyvJF1HcBZidojPG3bIwxsqyCMDP+rXM/RR2LmYnFmyG94PcusWomn9KolfAT3QsAY+3ldRiXt9UdXwow==}
+  lumepay-sdk@1.0.3:
+    resolution: {integrity: sha512-IrUf5Q6E+fFuxyct0niN67yAgAdMUAAR50e61jYBgsawSJxeiohY2zLpe9ALQWJfJOsmHdJmBvZmVLFRH6PuqA==}
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
@@ -1778,7 +1778,7 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
-  lumepay-sdk@1.0.2:
+  lumepay-sdk@1.0.3:
     dependencies:
       axios: 1.9.0
     transitivePeerDependencies:

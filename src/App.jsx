@@ -7,7 +7,7 @@ import { ClipLoader } from 'react-spinners';
 
 const product = {
   name: 'Mock Product',
-  price: 19.99,
+  price: 200,
   description: 'This is a mock product',
 };
 
@@ -24,7 +24,7 @@ function App() {
       setError(null);
       
       const newIntent = await createPaymentIntent(
-        Math.round(product.price * 100),
+        Math.round(product.price),
         'customer@example.com',
         { productName: product.name }
       );
